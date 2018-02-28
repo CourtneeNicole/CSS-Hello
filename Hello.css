@@ -1,0 +1,54 @@
+.tag{
+  display: grid;
+  grid-template-columns: 300px;
+  grid-template-rows: 25% 15% 50% 10%;
+  height: 300px;
+  width: 350px;
+  padding: 0px;
+border-radius: 15px;
+
+}
+.hello{
+  background: red;
+  color: white;
+  height: 100%;
+  font-size: 70px;
+  font-family: Chalkboard;
+  grid-column: 1/4;
+ grid-row: 1/2;
+  text-align: center;
+  vertical-align: bottom;
+  padding: 0px;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.intro{
+  background: red;
+  color: white;
+  grid-column: 1/4;
+  grid-row: 2/3;
+ text-align: center;
+  font-size: 30px;
+  vertical-align: text-top;
+  font-family: Chalkboard;
+}
+
+.name{
+  background: white;
+  color: #000;
+  grid-column: 1/4;
+  grid-row: 3/4;
+ text-align: center;
+  font-size: 85px;
+ height: 100%;
+  vertical-align: middle;
+  font-family: "Bradley Hand";
+
+}
+
+.bottom{
+  background: red;
+  grid-column: 1/4;
+  grid-row: 4/5;
+  border-radius: 0px 0px 15px 15px;
+}
